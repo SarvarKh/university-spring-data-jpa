@@ -72,4 +72,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-My greetings and gratitude to the amigoscode team for their course where I could learn immerse number of knowledge about Spring boot and many more ([click here](https://github.com/amigoscode/spring-data-jpa-course) to find out more).
+<br/>
+Credits to [Amigoscode team](https://amigoscode.com/), along with my greetings and gratitude, for their [amazing course](https://github.com/amigoscode/spring-data-jpa-course).
+I could learn a bunch of knowledge about Spring Boot Data JPA and many more.
