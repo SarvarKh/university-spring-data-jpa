@@ -1,16 +1,13 @@
 # University Management
 
-## Course Description
-
 > In this project I have practiced Spring Data JPA which allows to build scalable backend application backed by any relational database.
 
 ## Project Diagram
 <div align="center">
-## Overall Diagram
-  <img src="screenshots/diagram_01.png?raw=true" width="70%" height="auto" style="border-style: solid"/>
-  <img src="screenshots/diagram_02.png?raw=true" width="70%" height="auto" style="border-style: solid"/>
-  <img src="screenshots/diagram_03.png?raw=true" width="70%" height="auto" style="border-style: solid"/>
-  <img src="screenshots/diagram_04.png?raw=true" width="70%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_01.png?raw=true" width="80%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_02.png?raw=true" width="80%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_03.png?raw=true" width="80%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_04.png?raw=true" width="80%" height="auto" style="border-style: solid"/>
 </div>
 
 
@@ -38,24 +35,15 @@
 - Transactions
 
 
-## Live Demo
-
-[Live Demo Link](http://springbootreactfullstack-env.eba-5sgfjc9s.eu-west-1.elasticbeanstalk.com/)
-
-## Video intro
-
-[YouTube Link]()
-
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
-    Step 1: git clone https://github.com/SarvarKh/full-stack-student-new.git
+    Step 1: git clone https://github.com/SarvarKh/university-spring-data-jpa.git
     
     Step 2 - navigate to the cloned directory:
-    cd full-stack-student-new
+    cd university-spring-data-jpa
 
     Step 3 - run the server from your IDE:
     run DemoApplication class (Main)
@@ -75,7 +63,7 @@ Now, you can make HTTP requests throw Postman.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SarvarKh/full-stack-student-new/issues).
+Feel free to check the [issues page](https://github.com/SarvarKh/university-spring-data-jpa/issues).
 
 ## Show your support
 
