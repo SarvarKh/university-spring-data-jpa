@@ -84,4 +84,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-My greetings and gratitude to the amigoscode team for their course where I could learn immerse number of knowledge about Spring boot and many more ([click here](https://amigoscode.com/p/full-stack-spring-boot-react) to find out more).
+My greetings and gratitude to the amigoscode team for their course where I could learn immerse number of knowledge about Spring boot and many more ([click here](https://github.com/amigoscode/spring-data-jpa-course) to find out more).
