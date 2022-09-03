@@ -1,6 +1,6 @@
 # University Management
 
-> In this project I have practiced Spring Data JPA which allows to build scalable backend application backed by any relational database.
+> In this project, I practiced & applied Spring Data JPA technologies including mapping, connecting real DB, Hibernate, Queries, Paging & Sorting, various Relationships, and Transactions.
 
 ## Project Diagram
 <div align="center">
