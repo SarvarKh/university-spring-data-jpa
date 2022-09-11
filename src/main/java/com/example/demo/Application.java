@@ -23,6 +23,12 @@ public class Application {
                     "maria.jones@amigoscode.edu",
                     21
             );
+            Student maria2 = new Student(
+                    "Maria",
+                    "Jones",
+                    "maria2.jones@amigoscode.edu",
+                    25
+            );
             Student ahmed = new Student(
                     "Ahmed",
                     "Ali",
@@ -30,33 +36,21 @@ public class Application {
                     18
             );
 
-            System.out.println("Adding maria and ahmed");
-            studentRepository.saveAll(List.of(maria, ahmed));
-
-            System.out.print("Number of students:");
-            System.out.println(studentRepository.count());
+            studentRepository.saveAll(List.of(maria, ahmed, maria2));
 
             studentRepository
-                    .findById(2L)
+                    .findStudentByEmail("ahmed.ali@amigoscode.edu")
                     .ifPresentOrElse(
                             System.out::println,
-                            () -> System.out.println("Student with ID 2 not found"));
+                            () -> System.out.println("Student with email ahmed.ali@amigoscode.edu not found"));
 
-            studentRepository
-                    .findById(3L)
-                    .ifPresentOrElse(
-                            System.out::println,
-                            () -> System.out.println("Student with ID 3 not found"));
+            studentRepository.selectStudentWhereFirstNameAndAgeGreaterOrEqualNative(
+                    "Maria",
+                    21
+            ).forEach(System.out::println);
 
-            System.out.println("Select all students");
-            List<Student> students = studentRepository.findAll();
-            students.forEach(System.out::println);
-
-            System.out.println("Delete maria");
-            studentRepository.deleteById(1L);
-
-            System.out.print("Number of students: ");
-            System.out.println(studentRepository.count());
+            System.out.println("Deleting Maria 2");
+            System.out.println(studentRepository.deleteStudentById(3L));
         };
     }
 
