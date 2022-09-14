@@ -43,6 +43,20 @@ public class Application {
 
             student.setStudentIdCard(studentIdCard);
 
+            student.addEnrolment(new Enrolment(
+                    new EnrolmentId(1L, 1L),
+                    student,
+                    new Course("Computer Science", "IT"),
+                    LocalDateTime.now()
+            ));
+
+            student.addEnrolment(new Enrolment(
+                    new EnrolmentId(1L, 2L),
+                    student,
+                    new Course("Spring Data JPA", "IT"),
+                    LocalDateTime.now().minusDays(18)
+            ));
+
             studentRepository.save(student);
 
             studentRepository.findById(1L)
